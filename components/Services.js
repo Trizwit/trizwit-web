@@ -11,7 +11,7 @@ const Services = () => {
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
               From ideation to complete development and business scaling
-              solutions, we fulfil all your needs.
+              solutions, we fulfill all your needs.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -149,9 +149,9 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          {/* <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Button
-          </button>
+          </button> */}
         </div>
       </section>
     </div>

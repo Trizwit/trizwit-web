@@ -75,26 +75,25 @@ const IotIcon = () => {
 };
 const Hero = () => {
   return (
-    <div
-      name="home"
-      className="w-full h-screen bg-zinc-200 flex flex-col justify-between"
-    >
-      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
+    <div name="home" className="w-full h-screen  flex flex-col justify-between">
+      <div className="grid md:grid-cols-2 max-w-[1240px] mx-auto mt-6">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           <p className="text-2xl">The WEB3 COMPANY</p>
-          <h1 className="py-3 text-5xl md:text-7xl font-bold">TRIZWIT</h1>
+          <h1 className="py-3 text-5xl md:text-7xl font-bold">Trizwit</h1>
           <p className="text-2xl">Have a look at our services.</p>
-          <button className="py-3 px-6 sm:w-[60%] my-4">Services</button>
+          <button className="py-3 px-6 bg-indigo-600 rounded text-white sm:w-[60%] my-4 ">
+            Services
+          </button>
         </div>
         <div>
           <Image className="w-full" src={bgImg} alt="/" />
         </div>
         <div
-          className="absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%]
-            mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
+          className="absolute flex flex-col py-8 md:min-w-[760px] bottom-[2%]
+            mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-white
             border border-slate-300 rounded-xl text-center shadow-xl"
         >
-          <p>Domains</p>
+          <p className="text-3xl font-semibold text-indigo-600 mb-4">Domains</p>
           <div className="flex justify-between flex-wrap px-4">
             <p className="flex px-4 py-2 text-slate-500">
               <Web3Icon className="h-6 text-indigo-600" /> Web 3.0
