@@ -23,8 +23,8 @@ const Statistics = () => {
             <p className="text-gray-400 mt-2">Partner Companies</p>
           </div>
           <div className="border py-8 rounded-xl shadow-xl">
-            <p className="text-6xl font-bold text-indigo-600">300</p>
-            <p className="text-gray-400 mt-2">Users</p>
+            <p className="text-6xl font-bold text-indigo-600">20+</p>
+            <p className="text-gray-400 mt-2">Smart Contracts On-Chain</p>
           </div>
         </div>
       </div>
