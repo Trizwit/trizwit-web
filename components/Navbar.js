@@ -44,7 +44,7 @@ const Navbar = () => {
     <div className="bg-white w-full border border-b shadow-lg ">
       <div className="flex justify-between items-center">
         <div className="flex items-center ">
-          <h2 className="text-3xl text-gray-800 font-bold ml-4 px-4 py-4 hover:text-indigo-500">
+          <h2 className="text-3xl text-indigo-700 font-bold ml-4 px-4 py-4 hover:text-indigo-500">
             Trizwit.
           </h2>
           <ul className="hidden md:flex items-center pl-6">
@@ -56,11 +56,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="hidden md:flex">
-          <button className="mx-2 border-2 rounded-full border-indigo-500 text-indigo-500 px-4 py-2 hover:shadow-2xl">
+          {/* <button className="mx-2 border-2 rounded-full border-indigo-500 text-indigo-500 px-4 py-2 hover:shadow-2xl">
             {"Sign In"}
-          </button>
-          <button className="mx-2 border-2 rounded-full  text-white bg-indigo-500 px-4 py-2 hover:shadow-2xl">
-            {"Sign Up "}
+          </button> */}
+          <button className="mx-2 border-2 rounded-lg  text-white bg-indigo-500 px-4 py-2 hover:shadow-2xl">
+            {"Talk with Us"}
           </button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
@@ -88,11 +88,11 @@ const Navbar = () => {
           Contact
         </li>
         <div className="flex flex-col my-3  w-full">
-          <button className=" border-2 rounded border-indigo-500 text-indigo-500 px-4 py-2 mb-4 hover:shadow-lg">
+          {/* <button className=" border-2 rounded border-indigo-500 text-indigo-500 px-4 py-2 mb-4 hover:shadow-lg">
             {"Sign In"}
-          </button>
+          </button> */}
           <button className=" border-2 rounded  text-white bg-indigo-500 px-4 py-2 hover:shadow-lg shadow">
-            {"Sign Up "}
+            {"Talk with Us "}
           </button>
         </div>
       </ul>
