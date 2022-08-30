@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { SiHiveBlockchain } from "react-icons/si";
 // import { MenuIcon, XIcon } from "@heroicons/react/20/solid";
 
 const MenuIcon = () => {
@@ -41,10 +42,10 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="bg-white w-full border border-b shadow-lg ">
+    <div className="text-gray-800 font-semibold md:sticky top-0 z-10 body-font backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 shadow-lg ">
       <div className="flex justify-between items-center">
         <div className="flex items-center ">
-          <h2 className="text-3xl text-indigo-700 font-bold ml-4 px-4 py-4 hover:text-indigo-500">
+          <h2 className="text-3xl  font-bold ml-4 px-4 py-4 hover:text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-purple-600">
             Trizwit.
           </h2>
           <ul className="hidden md:flex items-center pl-6">
