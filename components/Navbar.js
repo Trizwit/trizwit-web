@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <div className="text-gray-800 font-semibold md:sticky top-0 z-10 body-font backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 shadow-lg ">
       <div className="flex justify-between items-center">
-        <div className="flex items-center ">
+        <div className="flex items-center">
           <h2 className="text-3xl  font-bold ml-4 px-4 py-4 hover:text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-purple-600">
             Trizwit.
           </h2>
