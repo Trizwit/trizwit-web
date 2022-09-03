@@ -1,43 +1,7 @@
 import React, { useState } from "react";
-import { SiHiveBlockchain } from "react-icons/si";
-// import { MenuIcon, XIcon } from "@heroicons/react/20/solid";
+import { AiOutlineCloseCircle } from "react-icons/ai";
+import { HiOutlineMenuAlt1 } from "react-icons/hi";
 
-const MenuIcon = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth={1.5}
-      stroke="currentColor"
-      className="w-6 h-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-      />
-    </svg>
-  );
-};
-const XIcon = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth={1.5}
-      stroke="currentColor"
-      className="w-6 h-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M4.5 19.5l15-15m-15 0l15 15"
-      />
-    </svg>
-  );
-};
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -66,9 +30,9 @@ const Navbar = () => {
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {!nav ? (
-            <MenuIcon className=" w-8 mx-4 text-gray-800 hover:indigo-500 " />
+            <HiOutlineMenuAlt1 className="  mx-4 w-8 h-8 text-gray-800 hover:text-indigo-500 " />
           ) : (
-            <XIcon className=" w-8 mx-4 text-gray-800 hover:text-indigo-500" />
+            <AiOutlineCloseCircle className=" w-8 mx-4 h-8 text-gray-800 hover:text-indigo-500" />
           )}
         </div>
       </div>
