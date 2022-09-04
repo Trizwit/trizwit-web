@@ -24,9 +24,11 @@ const Navbar = () => {
           {/* <button className="mx-2 border-2 rounded-full border-indigo-500 text-indigo-500 px-4 py-2 hover:shadow-2xl">
             {"Sign In"}
           </button> */}
-          <button className="mx-2 border-2 rounded-lg  text-white bg-indigo-500 px-4 py-2 hover:shadow-2xl">
-            {"Talk with Us"}
-          </button>
+          <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q">
+            <button className="mx-2 border-2 rounded-lg  text-white bg-indigo-500 px-4 py-2 hover:shadow-2xl">
+              {"Twitter"}
+            </button>
+          </a>
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {!nav ? (
@@ -53,12 +55,11 @@ const Navbar = () => {
           Contact
         </li>
         <div className="flex flex-col my-3  w-full">
-          {/* <button className=" border-2 rounded border-indigo-500 text-indigo-500 px-4 py-2 mb-4 hover:shadow-lg">
-            {"Sign In"}
-          </button> */}
-          <button className=" border-2 rounded  text-white bg-indigo-500 px-4 py-2 hover:shadow-lg shadow">
-            {"Talk with Us "}
-          </button>
+          <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q">
+            <button className=" border-2 rounded  text-white bg-indigo-500 px-4 py-2 hover:shadow-lg shadow">
+              {"Twitter "}
+            </button>
+          </a>
         </div>
       </ul>
     </div>
