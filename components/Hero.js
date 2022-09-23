@@ -8,7 +8,11 @@ import { MdApps } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <div name="home" className="w-full h-screen  flex flex-col justify-between">
+    <div
+      id="hero"
+      name="home"
+      className="w-full h-screen  flex flex-col justify-between"
+    >
       <div className="grid md:grid-cols-2 max-w-[1240px] mx-auto mt-6 px-4">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           {/* <p className="text-2xl">The WEB3 COMPANY</p> */}
@@ -18,9 +22,11 @@ const Hero = () => {
           <p className="text-2xl text-slate-800">
             Blockchain | DeFi | Metaverse | Web3 Gaming | NFTs | DAOs | Tooling
           </p>
-          <button className="py-3 px-6 bg-indigo-600 rounded text-2xl text-white  my-4 ">
-            Our Services
-          </button>
+          <a href="#services">
+            <button className="py-3 px-6 bg-indigo-600 rounded text-2xl text-white  my-4 ">
+              Our Services
+            </button>
+          </a>
         </div>
         <div>
           <Image className="w-full" src={bgImg} alt="/" />

@@ -14,19 +14,27 @@ const Navbar = () => {
           </h2>
           <ul className="hidden md:flex items-center pl-6">
             <li className="text-black px-4 font-semibold">Home</li>
-            <li className="text-black px-4 font-semibold">Services</li>
-            <li className="text-black px-4 font-semibold">About</li>
-            <li className="text-black px-4 font-semibold">Team</li>
-            <li className="text-black px-4 font-semibold">Contact</li>
+            <li className="text-black px-4 font-semibold">
+              <a href="#services">Services</a>
+            </li>
+            <li className="text-black px-4 font-semibold">
+              <a href="#hero">About</a>
+            </li>
+            <li className="text-black px-4 font-semibold">
+              <a href="#">Team</a>
+            </li>
+            <li className="text-black px-4 font-semibold">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
         <div className="hidden md:flex">
           {/* <button className="mx-2 border-2 rounded-full border-indigo-500 text-indigo-500 px-4 py-2 hover:shadow-2xl">
             {"Sign In"}
           </button> */}
-          <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q">
+          <a href="#contact">
             <button className="mx-2 border-2 rounded-lg  text-white bg-indigo-500 px-4 py-2 hover:shadow-2xl">
-              {"Twitter"}
+              {"Get in Touch"}
             </button>
           </a>
         </div>
