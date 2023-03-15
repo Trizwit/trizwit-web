@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const router = useRouter();
   const handleClick = () => setNav(!nav);
   return (
     <div className="text-gray-800 font-semibold md:sticky top-0 z-10 body-font backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 shadow-lg ">
@@ -13,7 +16,9 @@ const Navbar = () => {
             Trizwit.
           </h2>
           <ul className="hidden md:flex items-center pl-6">
-            <li className="text-black px-4 font-semibold">Home</li>
+            <li className="text-black px-4 font-semibold">
+            <Link href='/' >Home</Link>
+            </li>
             <li className="text-black px-4 font-semibold">
               <a href="#services">Services</a>
             </li>
@@ -21,7 +26,7 @@ const Navbar = () => {
               <a href="#hero">About</a>
             </li>
             <li className="text-black px-4 font-semibold">
-              <a href="#">Team</a>
+            <Link href='team' >Team</Link>
             </li>
             <li className="text-black px-4 font-semibold">
               <a href="#contact">Contact</a>
