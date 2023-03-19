@@ -23,19 +23,20 @@ const Teamcont = () => {
               <h3 className="text-gray-500 mb-3">Devops Engineer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl">
+                <a className="text-gray-500 sm:text-2xl"href="https://www.linkedin.com/in/ablevargheseme/" target="_blank">
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/ablevargheseme" target="_blank">
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/ablevargheseme" target="_blank">
                 <FaGithub/>
                 </a>
               </span>
             </div>
           </div>
         </div>
+
         <div className="px-32 py-12 lg:w-1/2">
           <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <Image alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={man3} />
@@ -44,19 +45,20 @@ const Teamcont = () => {
               <h3 className="text-gray-500 mb-3">Full Stack Developer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl">
+                <a className="text-gray-500 sm:text-2xl" href="https://www.linkedin.com/in/aswinrajkailath/" target="_blank">
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/aswinrajkailath" target="_blank">
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/ARK-ASWINRAJ/" target="_blank">
                 <FaGithub/>
                 </a>
               </span>
             </div>
           </div>
         </div>
+
         <div className="px-32 py-12 lg:w-1/2">
           <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <Image className="w-full" src={man2} alt="/" />
@@ -78,6 +80,7 @@ const Teamcont = () => {
             </div>
           </div>
         </div>
+
         <div className="px-32 py-12 lg:w-1/2">
           <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <Image className="w-full" src={man4} alt="/" /> 
@@ -86,13 +89,13 @@ const Teamcont = () => {
               <h3 className="text-gray-500 mb-3">Smart Contract Developer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl">
+                <a className="text-gray-500 sm:text-2xl" href="https://www.linkedin.com/in/binilvjacob" target="_blank">
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/the_bvj" target="_blank">
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/binilvjacob" target="_blank">
                 <FaGithub/>
                 </a>
               </span>

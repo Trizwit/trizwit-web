@@ -23,11 +23,11 @@ const Navbar = () => {
               <a href="#services">Services</a>
             </li>
             <li className="text-black px-4 font-semibold">
-              <a href="#hero">About</a>
+              <a href="about">About</a>
             </li>
-            <li className="text-black px-4 font-semibold">
+            {/* <li className="text-black px-4 font-semibold">
             <Link href='team' >Team</Link>
-            </li>
+            </li> */}
             <li className="text-black px-4 font-semibold">
               <a href="#contact">Contact</a>
             </li>
