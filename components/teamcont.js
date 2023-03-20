@@ -20,7 +20,8 @@ const Teamcont = () => {
           <Image className="w-full" src={man1} alt="/" />
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font font-medium text-lg text-gray-900">Able Varghese</h2>
-              <h3 className="text-gray-500 mb-3">Devops Engineer</h3>
+              <h3 className="text-gray-500 mb-1">Co-founder</h3> 
+              <h3 className="text-gray-500 mb-3">Devops Engineer</h3> 
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
                 <a className="text-gray-500 sm:text-2xl"href="https://www.linkedin.com/in/ablevargheseme/" target="_blank">
@@ -42,6 +43,7 @@ const Teamcont = () => {
             <Image alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={man3} />
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font font-medium text-lg text-gray-900">AswinRaj K</h2>
+              <h3 className="text-gray-500 mb-1">Co-founder</h3> 
               <h3 className="text-gray-500 mb-3">Full Stack Developer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
@@ -64,6 +66,7 @@ const Teamcont = () => {
           <Image className="w-full" src={man2} alt="/" />
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font font-medium text-lg text-gray-900">Athul A Kumar</h2>
+              <h3 className="text-gray-500 mb-1">Co-founder</h3> 
               <h3 className="text-gray-500 mb-3">Front-End Developer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
@@ -86,6 +89,7 @@ const Teamcont = () => {
           <Image className="w-full" src={man4} alt="/" /> 
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font font-medium text-lg text-gray-900">Binil V Jacob</h2>
+              <h3 className="text-gray-500 mb-1">Co-founder</h3> 
               <h3 className="text-gray-500 mb-3">Smart Contract Developer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
