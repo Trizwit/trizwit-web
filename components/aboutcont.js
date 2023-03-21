@@ -3,19 +3,29 @@ import Image from "next/image";
 
 const Aboutcont = () =>{
    return <section class="text-gray-600 body-font">
-   <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+  
+       <p className="mb-6 leading-relaxed text-2xl">The Trizwit team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.</p>
+       <div className="flex justify-center">
+       </div>
+     </div>
+   </div>
+   <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
     <div className="text-center lg:w-2/3 w-full">
       
       
      <h2 className="text-5xl font-bold text-center pb-8 text-indigo-500">VISION</h2>
-       <p className="mb-8 leading-relaxed text-2xl">To become a leading Web3 consultancy company that empowers individuals, businesses, and organizations to harness the full potential of decentralized technologies and build a more open, secure, and equitable internet.</p>
+       <p className="mb-6 leading-relaxed text-2xl">To become a leading Web3 consultancy company that empowers individuals, businesses, and organizations to harness the full potential of decentralized technologies and build a more open, secure, and equitable internet.</p>
        <div className="flex justify-center">
        </div>
      </div>
    </div>
 
 
-   <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+   <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
     <div className="text-center lg:w-2/3 w-full">
      <h2 className="text-5xl font-bold text-center pb-8 text-indigo-500">MISSION</h2>
        <div className="flex justify-center">
