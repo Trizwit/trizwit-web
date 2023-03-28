@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 const Aboutcont = () =>{
-   return <section class="text-gray-600 body-font">
+   return <section className="text-gray-600 body-font">
     <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
     <div className="text-center lg:w-2/3 w-full">
       
