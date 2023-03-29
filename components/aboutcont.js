@@ -8,7 +8,7 @@ const Aboutcont = () =>{
       
       
   
-       <p className="mb-6 leading-relaxed text-2xl">The Trizwit team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.</p>
+       <p className="mb-6 leading-relaxed text-2xl">The <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-purple-600 text-2xl">Trizwit</span> team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.</p>
        <div className="flex justify-center">
        </div>
      </div>
@@ -25,10 +25,10 @@ const Aboutcont = () =>{
    </div>
 
 
-   <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+   <div className="container mx-auto flex px-5 py-15 items-center justify-center flex-col">
     <div className="text-center lg:w-2/3 w-full">
-     <h2 className="text-5xl font-bold text-center pb-8 text-indigo-500">MISSION</h2>
-       <div className="flex justify-center">
+     <h2 className="text-5xl font-bold text-center pb-2 text-indigo-500">MISSION</h2>
+       {/* <div className="flex justify-center">
        <ol  className="leading-relaxed text-2xl  text-center mb-2 list-disc">
             <li>
             To provide expert advice, guidance, and support to clients seeking to integrate Web3 technologies into their operations, products, and services. 
@@ -46,9 +46,102 @@ const Aboutcont = () =>{
              To uphold ethical and transparent practices and help build a more decentralized, democratic, and inclusive digital economy.    
              </li>
            </ol>
-       </div>
+       </div> */}
      </div>
    </div>
+   <div className="bg-white py-6 sm:py-8 lg:py-12">
+  <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    
+    {/* <div class="mb-10 md:mb-16">
+      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Our competitive advantage</h2>
+
+      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+    </div> */}
+
+
+    <div className="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-4">
+   
+      <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
+                       hover:bg-white transform 
+                       hover:-translate-y-1 hover:scale-110 hover:border-2
+                       rounded-lg p-4 border border-indigo-600">
+        <div className="flex items-center p-2 text-indigo-500 md:p-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+
+        <div className="p-4 md:p-6">
+          <h3 className="mb-2 text-lg font-semibold md:text-xl text-indigo-500">Guidance</h3>
+          <p className="text-gray-500">To provide expert advice, guidance, and support to clients seeking to integrate Web3 technologies into their operations, products, and services.</p>
+        </div>
+      </div>
+    
+      <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
+                       hover:bg-white transform 
+                       hover:-translate-y-1 hover:scale-110 hover:border-2
+                       rounded-lg p-4 border border-indigo-600">
+        <div className="flex items-center p-2 text-indigo-500 md:p-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+
+        <div className="p-4 md:p-6">
+          <h3 className="mb-2 text-lg font-semibold md:text-xl text-indigo-500">Innovation</h3>
+          <p className="text-gray-500"> To foster  development of innovative and impactful Web3 solutions that address real-world challenges and opportunities.</p>
+        </div>
+      </div>
+   
+      <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
+                       hover:bg-white transform 
+                       hover:-translate-y-1 hover:scale-110 hover:border-2
+                       rounded-lg p-4 border border-indigo-600">
+        <div className="flex items-center p-2 text-indigo-500 md:p-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+
+        <div className="p-4 md:p-6">
+          <h3 className="mb-2 text-lg font-semibold md:text-xl text-indigo-500">Growth</h3>
+          <p className="text-gray-500">To contribute to the growth and evolution of the Web3 ecosystem by collaborating with other stakeholders and sharing knowledge and resources.</p>
+        </div>
+      </div>
+     
+      <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
+                       hover:bg-white transform 
+                       hover:-translate-y-1 hover:scale-110 hover:border-2
+                       rounded-lg p-4 border border-indigo-600">
+        <div className="flex items-center p-2 text-indigo-500 md:p-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+
+        <div className="p-4 md:p-6">
+          <h3 className="mb-2 text-lg font-semibold md:text-xl text-indigo-500">Educate</h3>
+          <p className="text-gray-500">To educate and raise awareness about the benefits and implications of decentralized technologies and promote their adoption and responsible use.</p>
+        </div>
+      </div>
+     
+
+    
+      
+      
+
+    
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
  </section>
 
 

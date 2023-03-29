@@ -27,6 +27,13 @@ const Statistics = () => {
             <p className="text-gray-400 mt-2">Smart Contracts On-Chain</p>
           </div>
         </div>
+        <div className="text-center mt-14">
+          <h2 className="text-5xl font-bold">
+            Our clients
+          </h2>
+          
+        </div>
+
       </div>
     </div>
   );
