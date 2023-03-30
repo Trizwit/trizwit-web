@@ -66,9 +66,7 @@ const Aboutcont = () =>{
                        hover:-translate-y-1 hover:scale-110 hover:border-2
                        rounded-lg p-4 border border-indigo-600">
         <div className="flex items-center p-2 text-indigo-500 md:p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-          </svg>
+        <img src="https://img.icons8.com/color/240/null/request-service.png"/>
         </div>
 
         <div className="p-4 md:p-6">
@@ -82,9 +80,7 @@ const Aboutcont = () =>{
                        hover:-translate-y-1 hover:scale-110 hover:border-2
                        rounded-lg p-4 border border-indigo-600">
         <div className="flex items-center p-2 text-indigo-500 md:p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-          </svg>
+        <img src="https://img.icons8.com/external-filled-color-icons-papa-vector/320/null/external-Brain-Of-Highly-Intelligent-Individual-emotional-manipulations-filled-color-icons-papa-vector.png"/>
         </div>
 
         <div className="p-4 md:p-6">
@@ -98,9 +94,7 @@ const Aboutcont = () =>{
                        hover:-translate-y-1 hover:scale-110 hover:border-2
                        rounded-lg p-4 border border-indigo-600">
         <div className="flex items-center p-2 text-indigo-500 md:p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-          </svg>
+        <img src="https://img.icons8.com/office/240/null/positive-dynamic.png"/>
         </div>
 
         <div className="p-4 md:p-6">
@@ -114,9 +108,7 @@ const Aboutcont = () =>{
                        hover:-translate-y-1 hover:scale-110 hover:border-2
                        rounded-lg p-4 border border-indigo-600">
         <div className="flex items-center p-2 text-indigo-500 md:p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-          </svg>
+        <img src="https://img.icons8.com/color/240/null/teaching.png"/>
         </div>
 
         <div className="p-4 md:p-6">
