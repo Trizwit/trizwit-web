@@ -1,11 +1,11 @@
 import React from "react";
 
-import { FaLinkedinIn, FaGithub, FaTwitter, FaLink } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter, FaMedium } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="w-full mt-24 bg-slate-900 text-gray-300 py-y px-2">
-      <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8">
+      {/* <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8">
         <div>
           <h6 className="font-bold uppercase pt-2">Solutions</h6>
           <ul>
@@ -57,19 +57,22 @@ const Footer = () => {
             </button>
           </form>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500">
         <p className="py-4">2022 Trizwit. All rights reserved</p>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
-          <a href="https://www.linkedin.com/company/trizwit/">
+          <a href="https://www.linkedin.com/company/trizwit/" target="_blank">
             <FaLinkedinIn />
           </a>
-          <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q">
+          <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q" target="_blank">
             <FaTwitter />
           </a>
-          <a href="https://github.com/Trizwit">
+          <a href="https://github.com/Trizwit" target="_blank">
             <FaGithub />
+          </a>
+          <a href="https://medium.com/@trizwit" target="_blank">
+            <FaMedium />
           </a>
         </div>
       </div>
