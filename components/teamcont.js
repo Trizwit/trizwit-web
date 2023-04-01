@@ -24,13 +24,13 @@ const Teamcont = () => {
               <h3 className="text-gray-500 mb-3">Devops Engineer</h3> 
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl"href="https://www.linkedin.com/in/ablevargheseme/" target="_blank">
+                <a className="text-gray-500 sm:text-2xl"href="https://www.linkedin.com/in/ablevargheseme/"  >
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/ablevargheseme" target="_blank">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/ablevargheseme"  >
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/ablevargheseme" target="_blank">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/ablevargheseme"  >
                 <FaGithub/>
                 </a>
               </span>
@@ -47,13 +47,13 @@ const Teamcont = () => {
               <h3 className="text-gray-500 mb-3">Full Stack Developer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl" href="https://www.linkedin.com/in/aswinrajkailath/" target="_blank">
+                <a className="text-gray-500 sm:text-2xl" href="https://www.linkedin.com/in/aswinrajkailath/"  >
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/aswinrajkailath" target="_blank">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/aswinrajkailath"  >
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/ARK-ASWINRAJ/" target="_blank">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/ARK-ASWINRAJ/"  >
                 <FaGithub/>
                 </a>
               </span>
@@ -70,13 +70,13 @@ const Teamcont = () => {
               <h3 className="text-gray-500 mb-3">Front-End Developer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a href="https://www.linkedin.com/in/athulakumar/" className="text-gray-500 sm:text-2xl " target="_blank">
+                <a href="https://www.linkedin.com/in/athulakumar/" className="text-gray-500 sm:text-2xl "  >
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/AthulAKumar8" target="_blank">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/AthulAKumar8"  >
                 <FaTwitter/>    
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/AthulA10" target="_blank">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/AthulA10"  >
                 <FaGithub/>  
                 </a>
               </span>
@@ -93,13 +93,13 @@ const Teamcont = () => {
               <h3 className="text-gray-500 mb-3">Smart Contract Developer</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl" href="https://www.linkedin.com/in/binilvjacob" target="_blank">
+                <a className="text-gray-500 sm:text-2xl" href="https://www.linkedin.com/in/binilvjacob"  >
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/the_bvj" target="_blank">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/the_bvj"  >
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/binilvjacob" target="_blank">
+                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/binilvjacob"  >
                 <FaGithub/>
                 </a>
               </span>
