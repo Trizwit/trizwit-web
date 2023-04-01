@@ -43,12 +43,12 @@ const Navbar = () => {
               {"Get in Touch"}
             </button>
           </a> */}
-          <a href="https://www.linkedin.com/company/trizwit/" target="_blank">
+          <a href="https://www.linkedin.com/company/trizwit/"  >
             <FaLinkedinIn className="h-8 w-8 mx-4 text-blue-700" />
           </a>
           <a
             href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q"
-            target="_blank"
+             
           >
             <FaTwitter className="h-8 w-8 ml-4 mr-6 text-blue-500" />
           </a>
@@ -85,14 +85,14 @@ const Navbar = () => {
           </a> */}
           <a
             href="https://www.linkedin.com/company/trizwit/"
-            target="_blank"
+             
             className="mx-4 h-6 w-6 text-blue-700"
           >
             <FaLinkedinIn className="h-6 w-6"/>
           </a>
           <a
             href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q"
-            target="_blank"
+             
             className="mx-4 h-6 w-6 text-blue-500"
           >
             <FaTwitter className="h-6 w-6" />
