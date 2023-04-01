@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Teamcont = () => {
    return  <section className="text-gray-600 body-font">
-    <div className="container px-5 py-24 mx-auto">
+    <div className="container px-5 py-24 mx-auto max-w-[1240px]">
       <div className="flex flex-col text-center w-full mb-20">
         <h1 className="py-3 text-5xl  md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500  to-purple-600">OUR TEAM</h1>
         {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base  text-slate-800">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p> */}

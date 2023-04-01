@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
           </h2>
           <ul className="hidden md:flex items-center pl-6">
             <li className="text-black px-4 font-semibold">
-            <Link href='/' >Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="text-black px-4 font-semibold">
               <a href="#services">Services</a>
@@ -37,10 +38,19 @@ const Navbar = () => {
           {/* <button className="mx-2 border-2 rounded-full border-indigo-500 text-indigo-500 px-4 py-2 hover:shadow-2xl">
             {"Sign In"}
           </button> */}
-          <a href="#contact">
+          {/* <a href="#contact">
             <button className="mx-2 border-2 rounded-lg  text-white bg-indigo-500 px-4 py-2 hover:shadow-2xl">
               {"Get in Touch"}
             </button>
+          </a> */}
+          <a href="https://www.linkedin.com/company/trizwit/" target="_blank">
+            <FaLinkedinIn className="h-8 w-8 mx-4 text-blue-700" />
+          </a>
+          <a
+            href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q"
+            target="_blank"
+          >
+            <FaTwitter className="h-8 w-8 ml-4 mr-6 text-blue-500" />
           </a>
         </div>
         <div className="md:hidden" onClick={handleClick}>
@@ -67,11 +77,25 @@ const Navbar = () => {
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
           Contact
         </li>
-        <div className="flex flex-col my-3  w-full">
-          <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q">
+        <div className="flex flex-row my-3  w-full">
+          {/* <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q">
             <button className=" border-2 rounded  text-white bg-indigo-500 px-4 py-2 hover:shadow-lg shadow">
               {"Twitter "}
             </button>
+          </a> */}
+          <a
+            href="https://www.linkedin.com/company/trizwit/"
+            target="_blank"
+            className="mx-4 h-6 w-6 text-blue-700"
+          >
+            <FaLinkedinIn className="h-6 w-6"/>
+          </a>
+          <a
+            href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q"
+            target="_blank"
+            className="mx-4 h-6 w-6 text-blue-500"
+          >
+            <FaTwitter className="h-6 w-6" />
           </a>
         </div>
       </ul>

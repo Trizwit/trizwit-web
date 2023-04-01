@@ -59,7 +59,7 @@ const Aboutcont = () =>{
     </div> */}
 
 
-    <div className="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-4">
+    <div className="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-4 max-w-[1240px] mx-auto">
    
       <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
                        hover:bg-white transform 
