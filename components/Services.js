@@ -11,7 +11,7 @@ const Services = () => {
             </h1>
             <p className="lg:w-1/2 w-full text-2xl font-medium leading-relaxed text-gray-500">
               From ideation to complete development and business scaling
-              solutions, we fulfill all your needs.
+              solutions,we fulfill all your needs.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
