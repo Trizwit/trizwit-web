@@ -21,16 +21,16 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="text-black px-4 font-semibold">
-              <a href="#services">Services</a>
+              <Link href="#services">Services</Link>
             </li>
             <li className="text-black px-4 font-semibold">
-              <a href="about">About</a>
+              <Link href="about">About</Link>
             </li>
             {/* <li className="text-black px-4 font-semibold">
             <Link href='team' >Team</Link>
             </li> */}
             <li className="text-black px-4 font-semibold">
-              <a href="#contact">Contact</a>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -63,19 +63,19 @@ const Navbar = () => {
       </div>
       <ul className={nav ? "flex flex-col w-full md:hidden px-8" : "hidden"}>
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-          Home
+          <Link href="/">Home</Link>
         </li>
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-          Services
+           <Link href="#services">Services</Link>
         </li>
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-          About
+         <Link href="about">About</Link>
         </li>
-        <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
+        {/* <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
           Team
-        </li>
+        </li> */}
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-          Contact
+         <Link href="#contact">Contact</Link>
         </li>
         <div className="flex flex-row my-3  w-full">
           {/* <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q">
