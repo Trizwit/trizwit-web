@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const router = useRouter();
@@ -13,9 +14,12 @@ const Navbar = () => {
     <div className="text-gray-800 font-semibold md:sticky top-0 z-10 body-font backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 shadow-lg ">
       <div className="flex justify-between items-center">
         <div className="flex items-center">
-          <h2 className="text-3xl  font-bold ml-4 px-4 py-4 hover:text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-purple-600">
-            Trizwit.
-          </h2>
+          <div className="flex items-center">
+        <img src="trizlogo.png" alt="Logo" className="h-12 w-12 md:h-16 md:w-16 ml-2 md:ml-4" />
+        <h2 className="text-3xl font-bold ml-0  px-4 py-4 hover:text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+          Trizwit.
+        </h2>
+        </div>
           <ul className="hidden md:flex items-center pl-6">
             <li className="text-black px-4 font-semibold">
               <Link href="/">Home</Link>
