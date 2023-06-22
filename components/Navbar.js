@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from 'react';
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import Link from "next/link";
@@ -10,10 +10,25 @@ import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -120,7 +135,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      <ul className={nav ? "flex flex-col w-full md:hidden px-8" : "hidden"}>
+      <ul ref={dropdownRef} className={nav ? "flex flex-col w-full md:hidden px-8" : "hidden"}>
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
           <Link href="/">Home</Link>
         </li>
@@ -133,7 +148,7 @@ const Navbar = () => {
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
       <button onClick={toggleDropdown}>Products</button>
       {isDropdownOpen && (
-        <ul className="absolute bg-white py-2 px-4 mt-2 shadow">
+        <ul  className="absolute bg-white text-gray-800 py-2 px-4 mt-2 shadow">
           {/* Dropdown menu items */}
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
             <Link href="https://pindown.trizwit.com/">Pindown</Link>
