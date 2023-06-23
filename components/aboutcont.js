@@ -6,10 +6,15 @@ const Aboutcont = () =>{
     <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
     <div className="text-center lg:w-2/3 w-full">
       
-      
+  
   
        <p className="mb-6 leading-relaxed text-2xl">The <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-purple-600 text-2xl">Trizwit</span> team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.</p>
        <div className="flex justify-center">
+       <img
+        src="ideation.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
        </div>
      </div>
    </div>
@@ -18,46 +23,37 @@ const Aboutcont = () =>{
       
       
      <h2 className="text-5xl font-bold text-center pb-8 text-indigo-500">VISION</h2>
-       <p className="mb-6 leading-relaxed text-2xl">To become a leading Web3 consultancy company that empowers individuals, businesses, and organizations to harness the full potential of decentralized technologies and build a more open, secure, and equitable internet.</p>
+       <p className="mb-6 leading-relaxed text-2xl">
+        To become a leading Web3 consultancy company that empowers 
+       individuals, businesses, and organizations to harness the full potential of decentralized 
+       technologies and build a more open, secure, and equitable internet.
+       </p>
        <div className="flex justify-center">
        </div>
      </div>
+     <img
+        src="vision.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
    </div>
-
+   
 
    <div className="container mx-auto flex px-5 py-15 items-center justify-center flex-col">
     <div className="text-center lg:w-2/3 w-full">
-     <h2 className="text-5xl font-bold text-center pb-2 text-indigo-500">MISSION</h2>
-       {/* <div className="flex justify-center">
-       <ol  className="leading-relaxed text-2xl  text-center mb-2 list-disc">
-            <li>
-            To provide expert advice, guidance, and support to clients seeking to integrate Web3 technologies into their operations, products, and services. 
-             </li>
-             <li>
-             To foster the development of innovative and impactful Web3 solutions that address real-world challenges and opportunities. 
-             </li>
-             <li>
-            To contribute to the growth and evolution of the Web3 ecosystem by collaborating with other stakeholders and sharing knowledge and resources.  
-             </li>
-             <li>
-             To educate and raise awareness about the benefits and implications of decentralized technologies and promote their adoption and responsible use.   
-             </li>
-            <li>
-             To uphold ethical and transparent practices and help build a more decentralized, democratic, and inclusive digital economy.    
-             </li>
-           </ol>
-       </div> */}
+     <h2 className="text-5xl font-bold text-center pb-8 text-indigo-500">MISSION</h2>
+     <p className="mb-6 leading-relaxed text-2xl">
+    To provide comprehensive Web3 consultancy services, enabling our clients to navigate 
+      the ever-evolving landscape of decentralized technologies with confidence and 
+      empower individuals, businesses, and organizations to embrace the transformative power of
+       Web3, fostering innovation, trust, and inclusivity in the digital realm. 
+       </p>
      </div>
    </div>
    <div className="bg-white py-6 sm:py-8 lg:py-12">
   <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
     
-    {/* <div class="mb-10 md:mb-16">
-      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Our competitive advantage</h2>
-
-      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
-    </div> */}
-
+    
 
     <div className="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-4 max-w-[1240px] mx-auto">
    

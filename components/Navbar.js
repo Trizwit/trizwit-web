@@ -57,7 +57,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="text-black hover:text-blue-500 px-4 font-semibold">
-              <Link href="#services">Services</Link>
+              <Link href="/#services">Services</Link>
             </li>
 
             <button
@@ -157,19 +157,29 @@ const Navbar = () => {
         </div>
       </div>
       <ul ref={dropdownRef} className={nav ? "flex flex-col w-full md:hidden px-8" : "hidden"}>
-        <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-          <Link href="/">Home</Link>
+        
+      <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
+      <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="/">
+      <span className="block">Home</span>
+        </Link>
         </li>
+
+        <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500 ">
+  <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="/#services">
+    <span className="block">Services</span>
+  </Link>
+</li>
+
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-           <Link href="#services">Services</Link>
+         <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="about">
+         <span className="block">About</span>
+         </Link>
         </li>
+
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-         <Link href="about">About</Link>
-        </li>
-        <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-      <button onClick={toggleDropdown}>Products</button>
+      <button className='w-full text-left' onClick={toggleDropdown}>Products</button>
       {isDropdownOpen && (
-        <ul  className="absolute bg-white w- text-gray-800 py-2 px-4 mt-2 shadow">
+        <ul  className="absolute bg-gray-100 w- text-gray-800 py-2 px-4 mt-2 shadow">
           {/* Dropdown menu items */}
           <li className="border-b w-64  border-zinc-400 py-2 mb-2 hover:text-indigo-500">
           <Link target="_blank" rel="noopener noreferrer" href="https://pindown.trizwit.com/">
@@ -223,25 +233,7 @@ const Navbar = () => {
          <Link href="#contact">Contact</Link>
         </li>
         <div className="flex flex-row my-3  w-full">
-          {/* <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q">
-            <button className=" border-2 rounded  text-white bg-indigo-500 px-4 py-2 hover:shadow-lg shadow">
-              {"Twitter "}
-            </button>
-          </a> */}
-          {/* <a
-            href="https://www.linkedin.com/company/trizwit/"
-             
-            className="mx-4 h-6 w-6 text-blue-700"
-          >
-            <FaLinkedinIn className="h-6 w-6"/>
-          </a>
-          <a
-            href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q"
-             
-            className="mx-4 h-6 w-6 text-blue-500"
-          >
-            <FaTwitter className="h-6 w-6" />
-          </a> */}
+          
         </div>
       </ul>
     </div>
