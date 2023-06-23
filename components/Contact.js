@@ -12,8 +12,10 @@
   }
   ```
 */
-import { useState } from 'react'
-import { useForm } from 'react-hook-form';
+
+import { useState, useEffect } from "react";
+import { useForm } from "react-hook-form";
+import useWeb3Forms from "@web3forms/react";
 {/*import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'*/}
 
@@ -22,26 +24,39 @@ function classNames(...classes) {
 }
 
 export default function Contact() {
-  const [agreed, setAgreed] = useState(false)
   const {
     register,
     handleSubmit,
     reset,
-    formState: { errors }, // catch error messages
-  } = useForm();
+    watch,
+    control,
+    setValue,
+    formState: { errors, isSubmitSuccessful, isSubmitting },
+  } = useForm({
+    mode: "onTouched",
+  });
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [message, setMessage] = useState(false);
 
-  function submitHandler(data) {
-    fetch('/api/sheet', {
-      method: 'POST',
-      body: JSON.stringify(data),
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-    reset(); // clears the input on submitting
-  }
-  
-  
+  // Please update the Access Key in the .env
+  const apiKey = process.env.PUBLIC_ACCESS_KEY || "YOUR_ACCESS_KEY_HERE";
+
+  const { submit: onSubmit } = useWeb3Forms({
+    access_key: apiKey,
+    settings: {
+      from_name: "Acme Inc",
+      subject: "New Contact Message from your Website",
+    },
+    onSuccess: (msg, data) => {
+      setIsSuccess(true);
+      setMessage(msg);
+      reset();
+    },
+    onError: (msg, data) => {
+      setIsSuccess(false);
+      setMessage(msg);
+    },
+  });
 
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -63,7 +78,7 @@ export default function Contact() {
           Get In Touch With Us
         </p>
       </div>
-      <form action="#" method="POST" onSubmit={handleSubmit(submitHandler)} className="mx-auto mt-16 max-w-xl sm:mt-20">
+      <form action="https://api.web3forms.com/submit" method="POST"  onSubmit={handleSubmit} className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -205,6 +220,16 @@ export default function Contact() {
           </button>
         </div>
       </form>
+      {isSubmitSuccessful && isSuccess && (
+        <div className="mt-3 text-sm text-center text-green-500">
+          {message || "Success. Message sent successfully"}
+        </div>
+      )}
+      {isSubmitSuccessful && !isSuccess && (
+        <div className="mt-3 text-sm text-center text-red-500">
+          {message || "Something went wrong. Please try later."}
+        </div>
+      )}
     </div>
   )
 }
