@@ -230,7 +230,9 @@ const Navbar = () => {
       )}
     </li>
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-         <Link href="#contact">Contact</Link>
+         <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="/#contact">
+         <span className="block">Contact</span>
+         </Link>
         </li>
         <div className="flex flex-row my-3  w-full">
           
