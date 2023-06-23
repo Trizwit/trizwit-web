@@ -21,16 +21,16 @@ const Teamcont = () => {
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font font-medium text-lg text-gray-900">Able Varghese</h2>
               <h3 className="text-gray-500 mb-1">Co-founder</h3> 
-              <h3 className="text-gray-500 mb-3">Devops Engineer</h3> 
+              <h3 className="text-gray-500 mb-3 ">Growth and Strategy Head</h3> 
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl"href="https://www.linkedin.com/in/ablevargheseme/"  >
+                <a className="text-gray-500 sm:text-2xl hover:text-[#0277B5]"href="https://www.linkedin.com/in/ablevargheseme/"  >
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/ablevargheseme"  >
+                <a className="ml-3 text-gray-500 sm:text-2xl hover:text-[#1B9DF0]" href="https://twitter.com/ablevargheseme"  >
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/ablevargheseme"  >
+                <a className="ml-3 text-gray-500 sm:text-2xl hover:text-black" href="https://github.com/ablevargheseme"  >
                 <FaGithub/>
                 </a>
               </span>
@@ -41,19 +41,18 @@ const Teamcont = () => {
         <div className="px-32 py-12 lg:w-1/2">
           <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <Image alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={man3} />
-            <div className="flex-grow sm:pl-8">
+            <div className="flex-grow sm:pl-8 ">
               <h2 className="title-font font-medium text-lg text-gray-900">AswinRaj K</h2>
               <h3 className="text-gray-500 mb-1">Co-founder</h3> 
-              <h3 className="text-gray-500 mb-3">Full Stack Developer</h3>
-              {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
+              <h3 className="text-gray-500 mb-3 ">Administration and Finance Head</h3>
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl" href="https://www.linkedin.com/in/aswinrajkailath/"  >
+                <a className="text-gray-500 sm:text-2xl hover:text-[#0277B5]" href="https://www.linkedin.com/in/aswinrajkailath/"  >
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/aswinrajkailath"  >
+                <a className="ml-3 text-gray-500 sm:text-2xl hover:text-[#1B9DF0]" href="https://twitter.com/aswinrajkailath"  >
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/ARK-ASWINRAJ/"  >
+                <a className="ml-3 text-gray-500 sm:text-2xl hover:text-black" href="https://github.com/ARK-ASWINRAJ/"  >
                 <FaGithub/>
                 </a>
               </span>
@@ -67,16 +66,16 @@ const Teamcont = () => {
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font font-medium text-lg text-gray-900">Athul A Kumar</h2>
               <h3 className="text-gray-500 mb-1">Co-founder</h3> 
-              <h3 className="text-gray-500 mb-3">Front-End Developer</h3>
+              <h3 className="text-gray-500 mb-3 ">Head of Operations</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a href="https://www.linkedin.com/in/athulakumar/" className="text-gray-500 sm:text-2xl "  >
+                <a href="https://www.linkedin.com/in/athulakumar/" className="text-gray-500 sm:text-2xl hover:text-[#0277B5] "  >
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/AthulAKumar8"  >
+                <a className="ml-3 text-gray-500 sm:text-2xl hover:text-[#1B9DF0]" href="https://twitter.com/AthulAKumar8"  >
                 <FaTwitter/>    
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/AthulA10"  >
+                <a className="ml-3 text-gray-500 sm:text-2xl hover:text-black" href="https://github.com/AthulA10"  >
                 <FaGithub/>  
                 </a>
               </span>
@@ -89,17 +88,17 @@ const Teamcont = () => {
           <Image className="w-full" src={man4} alt="/" /> 
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font font-medium text-lg text-gray-900">Binil V Jacob</h2>
-              <h3 className="text-gray-500 mb-1">Co-founder</h3> 
-              <h3 className="text-gray-500 mb-3">Smart Contract Developer</h3>
+              <h3 className="text-gray-500 mb-1">Co-founder,</h3> 
+              <h3 className="text-gray-500 mb-3 ">Product and Technology Head</h3>
               {/* <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
               <span className="inline-flex ">
-                <a className="text-gray-500 sm:text-2xl" href="https://www.linkedin.com/in/binilvjacob"  >
+                <a className="text-gray-500 sm:text-2xl hover:text-[#0277B5]" href="https://www.linkedin.com/in/binilvjacob"  >
                 <FaLinkedinIn />
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://twitter.com/the_bvj"  >
+                <a className="ml-3 text-gray-500 sm:text-2xl hover:text-[#1B9DF0]" href="https://twitter.com/the_bvj"  >
                 <FaTwitter/>
                 </a>
-                <a className="ml-3 text-gray-500 sm:text-2xl" href="https://github.com/binilvjacob"  >
+                <a className="ml-3 text-gray-500 sm:text-2xl hover:text-black" href="https://github.com/binilvjacob"  >
                 <FaGithub/>
                 </a>
               </span>

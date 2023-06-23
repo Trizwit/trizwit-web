@@ -4,74 +4,25 @@ import { FaLinkedinIn, FaGithub, FaTwitter, FaMedium } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full mt-24 bg-slate-900 text-gray-300 py-y px-2">
-      {/* <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8">
-        <div>
-          <h6 className="font-bold uppercase pt-2">Solutions</h6>
-          <ul>
-            <li className="py-1">Web3</li>
-            <li className="py-1">Blockchain</li>
-            <li className="py-1">AI</li>
-            <li className="py-1">Metaverse</li>
-            <li className="py-1">IoT</li>
-          </ul>
-        </div>
-        <div>
-          <h6 className="font-bold uppercase pt-2">Support</h6>
-          <ul>
-            <li className="py-1">Pricing</li>
-            <li className="py-1">Technical</li>
-            <li className="py-1">Get a Quote</li>
-          </ul>
-        </div>
-        <div>
-          <h6 className="font-bold uppercase pt-2">Company</h6>
-          <ul>
-            <li className="py-1">About</li>
-            <li className="py-1">Blog</li>
-            <li className="py-1">Careers</li>
-          </ul>
-        </div>
-        <div>
-          <h6 className="font-bold uppercase pt-2">Legal</h6>
-          <ul>
-            <li className="py-1">Privacy</li>
-            <li className="py-1">Terms</li>
-            <li className="py-1">Policies</li>
-            <li className="py-1">Conditions</li>
-          </ul>
-        </div>
-        <div className="col-span-2 pt-8 md:pt-2">
-          <p className="font-bold uppercase">Our 24/7 Support</p>
-          <p className="py-4">
-            Contact us to design custom solutions or know more
-          </p>
-          <form className="flex flex-col sm:flex-row">
-            <input
-              className="w-full p-2 mr-4 rounded-md mb-4"
-              type="email"
-              placeholder="Enter email.."
-            />
-            <button className="p-2 mb-4 rounded bg-indigo-500 text-white">
-              Contact
-            </button>
-          </form>
-        </div>
-      </div> */}
+    <div className="w-full mt-24 bg-gray-100 drop-shadow-lg text-gray-300 py-y px-2">
+      
 
       <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500">
-        <p className="py-4">2022 Trizwit. All rights reserved</p>
+      <div className="flex items-center">
+      <img src="trizwitlogo.png" alt="Logo" className="h-12 w-12 md:h-16 md:w-16 ml-2 md:ml-4" />
+        <p className="ml-2 md:ml-4 py-4">2022 Trizwit Labs Pvt. Ltd. All rights reserved</p>
+        </div>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
-          <a href="https://www.linkedin.com/company/trizwit/"  >
+          <a href="https://www.linkedin.com/company/trizwit/" className="hover:text-[#0277B5]" >
             <FaLinkedinIn />
           </a>
-          <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q"  >
+          <a href="https://twitter.com/trizwit?s=20&t=P2u10VMBS-FuDIQClE-m3Q" className="hover:text-[#1B9DF0]"  >
             <FaTwitter />
           </a>
-          <a href="https://github.com/Trizwit"  >
+          <a href="https://github.com/Trizwit" className="hover:text-black" >
             <FaGithub />
           </a>
-          <a href="https://medium.com/@trizwit"  >
+          <a href="https://medium.com/@trizwit" className="hover:text-black" >
             <FaMedium />
           </a>
         </div>

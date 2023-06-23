@@ -6,17 +6,18 @@ const Services = () => {
       <section className="text-gray-600 body-font mt-12 sm:mt-4  lg:mt-6 ">
         <div className="container px-5 py-24 mx-auto max-w-[1200px] ">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center sm:mt-24">
-            <h1 className="sm:text-4xl text-4xl font-bold title-font mb-2 text-gray-900">
+            <h1 className="sm:text-5xl text-5xl font-bold title-font mb-2 text-indigo-500">
               Our Blockchain consulting process{" "}
             </h1>
             <p className="lg:w-1/2 w-full text-2xl font-medium leading-relaxed text-gray-500">
               From ideation to complete development and business scaling
-              solutions, we fulfill all your needs.
+              solutions,we fulfill all your needs.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+
+            <div className="xl:w-1/3 md:w-1/2 p-4 ">
+              <div className="h-full border border-gray-200 shadow-xl  p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
                     fill="none"
@@ -37,8 +38,9 @@ const Services = () => {
                 </p>
               </div>
             </div>
+
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="h-full border border-gray-200 shadow-xl p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
                     fill="none"
@@ -60,8 +62,9 @@ const Services = () => {
                 </p>
               </div>
             </div>
+
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="h-full border border-gray-200 shadow-xl p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
                     fill="none"
@@ -83,8 +86,9 @@ const Services = () => {
                 </p>
               </div>
             </div>
+
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="h-full border border-gray-200 shadow-xl p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
                     fill="none"
@@ -104,8 +108,9 @@ const Services = () => {
                 </p>
               </div>
             </div>
+
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="h-full border border-gray-200 shadow-xl p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
                     fill="none"
@@ -126,8 +131,9 @@ const Services = () => {
                 </p>
               </div>
             </div>
+
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="h-full border border-gray-200 shadow-xl p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
                     fill="none"
@@ -148,6 +154,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
+
           </div>
           {/* <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Button
