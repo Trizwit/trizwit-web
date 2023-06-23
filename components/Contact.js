@@ -63,8 +63,8 @@ export default function Contact() {
   
 
   return (
-    <div id="contact" className="isolate bg-gray-100 px-6 py-24 sm:py-32 lg:px-8">
-      <div
+    <div id="contact" className="isolate bg-gray-100 px-6 py-24 sm:py-2 lg:px-8">
+      {/* <div
         className="relative inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
         aria-hidden="true"
       >
@@ -75,7 +75,7 @@ export default function Contact() {
               'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
           }}
         />
-      </div>
+      </div> */}
       <div className="mx-auto max-w-2xl text-center">
       <h1 className="py-3 text-5xl  md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500  to-purple-600">Contact Us</h1>
         {/* <p className="mt-2 text-lg leading-8 text-black-600 font-bold">
