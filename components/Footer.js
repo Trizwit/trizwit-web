@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500">
       <div className="flex items-center">
-      <img src="trizwitlogo.png" alt="Logo" className="h-8 w-8 md:h-12 md:w-12 ml-2 md:ml-4" />
+      <img src="trizwitlogo.png" alt="Logo" className="h-12 w-12 md:h-16 md:w-16 ml-2 md:ml-4" />
         <p className="ml-2 md:ml-4 py-4">2022 Trizwit Labs Pvt. Ltd. All rights reserved</p>
         </div>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
