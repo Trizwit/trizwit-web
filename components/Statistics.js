@@ -5,11 +5,11 @@ const Statistics = () => {
     <div name="about" className="my-32 mx-2">
       <div className="max-w-[1240px] mx-auto">
         <div className="text-center">
-          <h2 className="text-5xl font-bold">
+          <h3 className="text-5xl text-indigo-500 font-bold">
             Trusted by companies across the world
-          </h2>
+          </h3>
           <p className="text-xl md:text-3xl py-6 text-gray-500">
-            The best in class solutions designed to meet your requirements.
+          Working with best companies in Web3
           </p>
         </div>
 
