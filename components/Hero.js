@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           {/* <p className="text-2xl">The WEB3 COMPANY</p> */}
           <h1 className="py-3 text-5xl  md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500  to-purple-600">
-            WEB 3.0 Development and Consulting
+            WEB 3.0 Development and Consultancy
           </h1>
           <p className="text-2xl text-slate-800">
             Blockchain | DeFi | Web3 Gaming | NFTs | DAOs | Tooling

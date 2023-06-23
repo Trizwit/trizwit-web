@@ -45,12 +45,12 @@ const Navbar = () => {
           <div className="flex items-center">
         <img src="trizwitlogo.png" alt="Logo" className="h-12 w-12 md:h-16 md:w-16 ml-2 md:ml-4" />
         <h2 className="text-3xl font-bold ml-0  px-4 py-4 hover:text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-          Trizwit.
+          Trizwit
         </h2>
         </div>
           
         </div>
-        <div className="hidden md:flex  md:mr-4 lg:mr-24">
+        <div className="hidden md:flex  md:mr-2 lg:mr-4">
         
           <ul className="hidden md:flex items-center ">
             <li className="text-black hover:text-blue-500 px-4 font-semibold">
@@ -66,49 +66,67 @@ const Navbar = () => {
   onMouseLeave={handleToggle}
 >
   <li className="text-black hover:text-blue-500 px-4 font-semibold">
-    <Link href="about">Products</Link>
+    <Link href="/">Products</Link>
   </li>
   {isOpen && (
-    <div className="absolute w-64 justify-items-center left-1/2 transform -translate-x-1/2  bg-white px-2 py-0 rounded-md shadow-lg">
+    <div className="absolute w-72 justify-items-center left-1/2 transform -translate-x-1/2  bg-white px-2 py-0 rounded-md shadow-lg">
       <a
+        rel="noopener"
         target="_blank"
         href="https://pindown.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
       >
         {/* <img src="trizwitlogo.png" alt="Logo" className="block h-4 w-4 md:h-8 md:w-8 mr-2" /> */}
-        <div className="justify-items-center text-center">
-          <span className="block">Pindown</span>
-          <span className="block text-sm text-gray-500">
-            Tokenise and verify certificates
-          </span>
-        </div>
+        <div className="flex items-top text-left">
+      <img
+        src="pinicon.png"
+        alt="Image Alt Text"
+        className="w-12 h-12 mr-2"
+      />
+      <div>
+      <span>Pindown</span>
+      <span className="block text-gray-400">Tokenise and verify certificates</span>
+    </div>
+    </div>
       </a>
+
+
       <a
+        rel="noopener"
         target="_blank"
         href="https://blockiot.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
       >
-        {/* <img src="trizwitlogo.png" alt="Logo" className="block h-4 w-4 md:h-8 md:w-8 mr-2" /> */}
-        <div className="justify-items-center text-center" >
-          <span className="block">BlockIoT</span>
-          <span className="block text-sm text-gray-500">
-            Blockchain-IoT integration simplified
-          </span>
-        </div>
+        <div className="flex items-top text-left">
+      <img
+        src="blockicon.png"
+        alt="Image Alt Text"
+        className="w-12 h-12 mr-2"
+      />
+      <div>
+      <span>BlockIoT</span>
+      <span className="block text-gray-400">Blockchain-IoT integration simplified</span>
+    </div>
+    </div>
       </a>
-
+        
       <a
+        rel="noopener"
         target="_blank"
         href="https://fastnui.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
       >
-        {/* <img src="trizwitlogo.png" alt="Logo" className="block h-4 w-4 md:h-8 md:w-8 mr-2" /> */}
-        <div className="justify-items-center text-center" >
-          <span className="block">FASTN UI</span>
-          <span className="block text-sm text-gray-500">
-          FASTN UI Component library
-          </span>
-        </div>
+        <div className="flex items-top text-left">
+      <img
+        src="fastnicon.png"
+        alt="Image Alt Text"
+        className="w-12 h-12 mr-2"
+      />
+      <div>
+      <span>FASTN UI</span>
+      <span className="block text-gray-400">FASTN UI Component library</span>
+    </div>
+    </div>
       </a>
 
       
@@ -151,16 +169,52 @@ const Navbar = () => {
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
       <button onClick={toggleDropdown}>Products</button>
       {isDropdownOpen && (
-        <ul  className="absolute bg-white text-gray-800 py-2 px-4 mt-2 shadow">
+        <ul  className="absolute bg-white w- text-gray-800 py-2 px-4 mt-2 shadow">
           {/* Dropdown menu items */}
-          <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link target="_blank" href="https://pindown.trizwit.com/">Pindown</Link>
+          <li className="border-b w-64  border-zinc-400 py-2 mb-2 hover:text-indigo-500">
+          <Link target="_blank" rel="noopener" href="https://pindown.trizwit.com/">
+    <div className="flex items-center">
+      <img
+        src="pinicon.png"
+        alt="Image Alt Text"
+        className="w-6 h-6 mr-2"
+      />
+      <div>
+      <span>Pindown</span>
+      <span className="block text-gray-400">Tokenise and verify certificates</span>
+    </div>
+    </div>
+  </Link>
           </li>
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link target="_blank" href="https://blockiot.trizwit.com/">BlockIoT</Link>
+            <Link target="_blank" rel="noopener" href="https://blockiot.trizwit.com/">
+            <div className="flex items-center">
+      <img
+        src="blockicon.png"
+        alt="Image Alt Text"
+        className="w-6 h-6 mr-2"
+      />
+      <div>
+      <span>BlockIoT</span>
+      <span className="block text-gray-400">Blockchain-IoT integration simplified</span>
+    </div>
+    </div>
+            </Link>
           </li>
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link target="_blank" href="https://fastnui.trizwit.com/">FASTN UI</Link>
+            <Link target="_blank" rel="noopener" href="https://fastnui.trizwit.com/">
+            <div className="flex items-center">
+      <img
+        src="fastnicon.png"
+        alt="Image Alt Text"
+        className="w-6 h-6 mr-2"
+      />
+      <div>
+      <span>FASTN UI</span>
+      <span className="block text-gray-400">FASTN UI Component library</span>
+    </div>
+    </div>
+            </Link>
           </li>
         </ul>
       )}
