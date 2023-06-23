@@ -71,7 +71,7 @@ const Navbar = () => {
   {isOpen && (
     <div className="absolute w-72 justify-items-center left-1/2 transform -translate-x-1/2  bg-white px-2 py-0 rounded-md shadow-lg">
       <a
-        rel="noopener"
+        rel="noopener noreferrer"
         target="_blank"
         href="https://pindown.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
@@ -92,7 +92,7 @@ const Navbar = () => {
 
 
       <a
-        rel="noopener"
+        rel="noopener noreferrer"
         target="_blank"
         href="https://blockiot.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
@@ -111,7 +111,7 @@ const Navbar = () => {
       </a>
         
       <a
-        rel="noopener"
+        rel="noopener noreferrer"
         target="_blank"
         href="https://fastnui.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
@@ -172,7 +172,7 @@ const Navbar = () => {
         <ul  className="absolute bg-white w- text-gray-800 py-2 px-4 mt-2 shadow">
           {/* Dropdown menu items */}
           <li className="border-b w-64  border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-          <Link target="_blank" rel="noopener" href="https://pindown.trizwit.com/">
+          <Link target="_blank" rel="noopener noreferrer" href="https://pindown.trizwit.com/">
     <div className="flex items-center">
       <img
         src="pinicon.png"
@@ -187,7 +187,7 @@ const Navbar = () => {
   </Link>
           </li>
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link target="_blank" rel="noopener" href="https://blockiot.trizwit.com/">
+            <Link target="_blank" rel="noopener noreferrer" href="https://blockiot.trizwit.com/">
             <div className="flex items-center">
       <img
         src="blockicon.png"
@@ -202,7 +202,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link target="_blank" rel="noopener" href="https://fastnui.trizwit.com/">
+            <Link target="_blank" rel="noopener noreferrer" href="https://fastnui.trizwit.com/">
             <div className="flex items-center">
       <img
         src="fastnicon.png"
