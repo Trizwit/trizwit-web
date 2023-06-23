@@ -71,6 +71,7 @@ const Navbar = () => {
   {isOpen && (
     <div className="absolute w-64 justify-items-center left-1/2 transform -translate-x-1/2  bg-white px-2 py-0 rounded-md shadow-lg">
       <a
+        target="_blank"
         href="https://pindown.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
       >
@@ -83,6 +84,7 @@ const Navbar = () => {
         </div>
       </a>
       <a
+        target="_blank"
         href="https://blockiot.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
       >
@@ -96,7 +98,8 @@ const Navbar = () => {
       </a>
 
       <a
-        href="https://blockiot.trizwit.com/"
+        target="_blank"
+        href="https://fastnui.trizwit.com/"
         className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
       >
         {/* <img src="trizwitlogo.png" alt="Logo" className="block h-4 w-4 md:h-8 md:w-8 mr-2" /> */}
@@ -151,13 +154,13 @@ const Navbar = () => {
         <ul  className="absolute bg-white text-gray-800 py-2 px-4 mt-2 shadow">
           {/* Dropdown menu items */}
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link href="https://pindown.trizwit.com/">Pindown</Link>
+            <Link target="_blank" href="https://pindown.trizwit.com/">Pindown</Link>
           </li>
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link href="https://blockiot.trizwit.com/">BlockIoT</Link>
+            <Link target="_blank" href="https://blockiot.trizwit.com/">BlockIoT</Link>
           </li>
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link href="https://blockiot.trizwit.com/">FASTN UI</Link>
+            <Link target="_blank" href="https://fastnui.trizwit.com/">FASTN UI</Link>
           </li>
         </ul>
       )}
