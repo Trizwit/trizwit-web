@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from 'react';
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import Link from "next/link";
@@ -9,6 +9,27 @@ import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 
 const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
+
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
@@ -48,13 +69,13 @@ const Navbar = () => {
     <Link href="about">Products</Link>
   </li>
   {isOpen && (
-    <div className="absolute justify-items-center left-1/2 transform -translate-x-1/2  bg-white px-2 py-0 rounded-md shadow-lg">
+    <div className="absolute w-64 justify-items-center left-1/2 transform -translate-x-1/2  bg-white px-2 py-0 rounded-md shadow-lg">
       <a
         href="https://pindown.trizwit.com/"
-        className="flex w-64 px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
+        className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
       >
         {/* <img src="trizwitlogo.png" alt="Logo" className="block h-4 w-4 md:h-8 md:w-8 mr-2" /> */}
-        <div className="justify-items-center">
+        <div className="justify-items-center text-center">
           <span className="block">Pindown</span>
           <span className="block text-sm text-gray-500">
             Tokenise and verify certificates
@@ -63,19 +84,31 @@ const Navbar = () => {
       </a>
       <a
         href="https://blockiot.trizwit.com/"
-        className="flex w-64 px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
+        className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
       >
         {/* <img src="trizwitlogo.png" alt="Logo" className="block h-4 w-4 md:h-8 md:w-8 mr-2" /> */}
-        <div className="text-center" >
+        <div className="justify-items-center text-center" >
           <span className="block">BlockIoT</span>
           <span className="block text-sm text-gray-500">
             Blockchain-IoT integration simplified
           </span>
         </div>
       </a>
-      <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
-        Item 3
+
+      <a
+        href="https://blockiot.trizwit.com/"
+        className="flex  px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-blue-500"
+      >
+        {/* <img src="trizwitlogo.png" alt="Logo" className="block h-4 w-4 md:h-8 md:w-8 mr-2" /> */}
+        <div className="justify-items-center text-center" >
+          <span className="block">FASTN UI</span>
+          <span className="block text-sm text-gray-500">
+          FASTN UI Component library
+          </span>
+        </div>
       </a>
+
+      
     </div>
   )}
 </button>
@@ -102,7 +135,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      <ul className={nav ? "flex flex-col w-full md:hidden px-8" : "hidden"}>
+      <ul ref={dropdownRef} className={nav ? "flex flex-col w-full md:hidden px-8" : "hidden"}>
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
           <Link href="/">Home</Link>
         </li>
@@ -113,8 +146,22 @@ const Navbar = () => {
          <Link href="about">About</Link>
         </li>
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-        <Link href="/">Products</Link>
-        </li>
+      <button onClick={toggleDropdown}>Products</button>
+      {isDropdownOpen && (
+        <ul  className="absolute bg-white text-gray-800 py-2 px-4 mt-2 shadow">
+          {/* Dropdown menu items */}
+          <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
+            <Link href="https://pindown.trizwit.com/">Pindown</Link>
+          </li>
+          <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
+            <Link href="https://blockiot.trizwit.com/">BlockIoT</Link>
+          </li>
+          <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
+            <Link href="https://blockiot.trizwit.com/">FASTN UI</Link>
+          </li>
+        </ul>
+      )}
+    </li>
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
          <Link href="#contact">Contact</Link>
         </li>
