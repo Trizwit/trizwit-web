@@ -160,7 +160,7 @@ const Navbar = () => {
             <Link target="_blank" href="https://blockiot.trizwit.com/">BlockIoT</Link>
           </li>
           <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
-            <Link target="_blank" href="https://fastnui.trizwit.com/">FASTN U</Link>
+            <Link target="_blank" href="https://fastnui.trizwit.com/">FASTN UI</Link>
           </li>
         </ul>
       )}
