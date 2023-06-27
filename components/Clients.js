@@ -15,28 +15,28 @@ const Clients = () => {
                 showThumbs={false} // Hide thumbnail navigation
                 infiniteLoop={true} // Loop through the carousel
                 autoPlay={true} // Auto-play the carousel
-                interval={3000}
+                interval={2000}
                 showIndicators={false}
                 showStatus={false}  // Time between slides (in milliseconds)
               >
                 <div>
                   <img
                     className="max-h-48 max-w-48  object-contain"
-                    src="zindot.png"
+                    src="zind.png"
                     alt="Zindot"
                   />
                 </div>
                 <div>
                   <img
                     className="max-h-48 max-w-48  object-contain"
-                    src="fastn-logo.png"
+                    src="fastn.png"
                     alt="Fastn"
                   />
                 </div>
                 <div>
                   <img
                     className="max-h-48 max-w-48  object-contain"
-                    src="zerowatt.png"
+                    src="zerow.png"
                     alt="Zerowatt"
                   />
                 </div>

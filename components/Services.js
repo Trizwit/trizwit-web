@@ -9,9 +9,9 @@ const Services = () => {
             <h1 className="sm:text-5xl text-5xl font-bold title-font mb-2 text-indigo-500">
               Our Blockchain consulting process{" "}
             </h1>
-            <p className="lg:w-1/2 w-full text-2xl font-medium leading-relaxed text-gray-500">
-              From ideation to complete development and business scaling
-              solutions,we fulfill all your needs.
+            <p className=" w-full text-2xl font-medium leading-relaxed text-gray-500">
+            We offer comprehensive solutions that cater to your every need, encompassing the entire journey from ideation and 
+            development to scaling your business.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
