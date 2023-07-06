@@ -57,7 +57,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="text-black hover:text-blue-500 px-4 font-semibold">
-              <Link href="/#services">Services</Link>
+              <Link href="services1">Services</Link>
             </li>
 
             <button
