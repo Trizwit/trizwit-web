@@ -135,7 +135,7 @@ const Servicescont = () =>{
 
    
 
-   <div className="container mx-auto flex px-5 py-15 items-center justify-center flex-col">
+   {/* <div className="container mx-auto flex px-5 py-15 items-center justify-center flex-col">
     <div className="text-center lg:w-2/3 w-full">
      <h2 className="text-5xl font-bold text-center pb-8 text-indigo-500">MISSION</h2>
      <p className="mb-6 leading-relaxed text-2xl">
@@ -145,8 +145,9 @@ const Servicescont = () =>{
        Web3, fostering innovation, trust, and inclusivity in the digital realm. 
        </p>
      </div>
-   </div>
-   <div className="bg-white py-6 sm:py-8 lg:py-12">
+   </div> */}
+   
+   {/* <div className="bg-white py-6 sm:py-8 lg:py-12">
   <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
     
     
@@ -218,7 +219,7 @@ const Servicescont = () =>{
     
     </div>
   </div>
-</div>
+</div> */}
 
 
 
