@@ -3,12 +3,26 @@ import Image from "next/image";
 
 const Servicescont = () =>{
    return <section className="text-gray-600 body-font">
-    <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+    <div class="grid grid-cols-1 md:grid-cols-2 mx-12">
+  <div class="p-8 py-12 mt-16">
+    <p class="text-7xl font-old font-extrabold py-4">analyse</p>
+    <p class="text-5xl font-extrabold py-4">advice</p>
+    <p class="text-5xl font-extrabold py-4">manage</p>
+  </div>
+  <div class="p-8 ml-32">
+  <img
+        src="ideation.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+  </div>
+</div>
+    {/* <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
     <div className="text-center lg:w-2/3 w-full">
       
-  
-  
-       <p className="mb-6 leading-relaxed text-2xl">The <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-purple-600 text-2xl">Trizwit</span> team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.</p>
+    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Our Blockchain Consulting Process</h2>
+  <p className="mb-6 leading-relaxed text-2xl">We offer comprehensive solutions that cater to your every need, encompassing the entire journey from ideation and development to scaling your business.</p>
+       
        <div className="flex justify-center">
        <img
         src="ideation.png"
@@ -17,7 +31,7 @@ const Servicescont = () =>{
       />
        </div>
      </div>
-   </div>
+   </div> */}
 
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Ideation</h2>

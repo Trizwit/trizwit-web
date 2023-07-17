@@ -56,9 +56,9 @@ const Navbar = () => {
             <li className="text-black hover:text-blue-500 px-4 font-semibold">
               <Link href="/">Home</Link>
             </li>
-            <li className="text-black hover:text-blue-500 px-4 font-semibold">
+            {/* <li className="text-black hover:text-blue-500 px-4 font-semibold">
               <Link href="services1">Services</Link>
-            </li>
+            </li> */}
 
             <button
   className="px-4 relative"
@@ -165,9 +165,9 @@ const Navbar = () => {
         </li>
 
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500 ">
-  <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="services1">
+  {/* <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="services1">
     <span className="block">Services</span>
-  </Link>
+  </Link> */}
 </li>
 
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">

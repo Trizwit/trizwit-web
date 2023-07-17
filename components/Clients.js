@@ -4,7 +4,7 @@ const Clients = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container text-center px-5 mx-auto max-w-[1240px]">
-        <h2 className="text-5xl font-bold text-indigo-500">Our Clients</h2>
+        <h2 className="text-5xl font-bold text-indigo-500">Trusted By</h2>
         <div className="flex flex-wrap justify-center mt-12">
           <div className="w-48 h-48 bg-white rounded-full flex items-center justify-center">
             <img
