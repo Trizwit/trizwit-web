@@ -6,7 +6,7 @@ const Clients = () => {
       <div className="container text-center px-5 mx-auto max-w-[1240px]">
         <h2 className="text-5xl font-bold text-indigo-500">Trusted By</h2>
         <div className="flex flex-wrap justify-center mt-12">
-  <div className="w-48 h-48 bg-white rounded-full flex items-center justify-center">
+        <div className="w-48 h-48 bg-white rounded-full flex items-center justify-center mt-4 md:mt-0 ml-0 md:ml-12">
     <img
       className="max-h-48 max-w-48 object-contain"
       src="zind.png"

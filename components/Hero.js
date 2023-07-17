@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
           {/* <p className="text-2xl">The WEB3 COMPANY</p> */}
           <h1 className="py-3 text-5xl  md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500  to-purple-600">
-            WEB 3.0 Development and Consultancy
+            WEB 3.0 Development And Consultancy
           </h1>
           <p className="text-2xl text-slate-800">
             Blockchain | DeFi | Web3 Gaming | NFTs | DAOs | Tooling
@@ -31,8 +31,11 @@ const Hero = () => {
         <div>
           <Image className="w-full" src={bgImg} alt="/" />
         </div>
-        <div
-          className="md:absolute flex flex-col pt-4 pb-6  md:min-w-[600px] bottom-[2%]
+        
+
+
+    <div
+          className="md:absolute  flex flex-col pt-4 pb-6  md:min-w-[600px] bottom-[2%]
             mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-white
             border border-slate-300 rounded-xl text-center shadow-xl"
         >
@@ -50,6 +53,8 @@ const Hero = () => {
             </p>
           </div>
         </div>
+        
+
       </div>
     </div>
   );
