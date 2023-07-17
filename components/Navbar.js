@@ -164,11 +164,11 @@ const Navbar = () => {
         </Link>
         </li>
 
-        <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500 ">
-  {/* <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="services1">
+        {/* <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500 ">
+  <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="services1">
     <span className="block">Services</span>
-  </Link> */}
-</li>
+  </Link>
+</li> */}
 
         <li className="border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500">
          <Link className="block border-b border-zinc-400 py-2 mb-2 hover:text-indigo-500" href="about">
