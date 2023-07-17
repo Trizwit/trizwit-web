@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const Servicescont = () =>{
    return <section className="text-gray-600 body-font">
-    <div class="grid grid-cols-1 md:grid-cols-2 mx-12">
-  <div class="p-8 py-12 mt-16">
-    <p class="text-7xl font-old font-extrabold py-4">analyse</p>
-    <p class="text-5xl font-extrabold py-4">advice</p>
-    <p class="text-5xl font-extrabold py-4">manage</p>
+    <div className="grid grid-cols-1 md:grid-cols-2 mx-12">
+  <div className="p-8 py-12 mt-16">
+    <p className="text-7xl font-old font-extrabold py-4">analyse</p>
+    <p className="text-5xl font-extrabold py-4">advice</p>
+    <p className="text-5xl font-extrabold py-4">manage</p>
   </div>
-  <div class="p-8 ml-32">
+  <div className="p-8 ml-32">
   <img
         src="ideation.png"
         alt="Image Alt Text"
