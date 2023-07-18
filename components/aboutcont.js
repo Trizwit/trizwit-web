@@ -11,7 +11,7 @@ const Aboutcont = () =>{
        <p className="mb-6 leading-relaxed text-2xl">The <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-purple-600 text-2xl">Trizwit</span> team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.</p>
        <div className="flex justify-center">
        <img
-        src="ideation.png"
+        src="startup.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
