@@ -22,7 +22,7 @@ const Hero = () => {
       <p className="text-2xl text-slate-800">
         Blockchain | DeFi | Web3 Gaming | NFTs | DAOs | Tooling
       </p>
-      <a href="#services">
+      <a href="services1">
         <button className="py-3 px-6 bg-indigo-600 rounded text-2xl text-white my-4">
           Our Services
         </button>
