@@ -34,7 +34,7 @@ const Servicescont = () =>{
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Smart Contract Development</h2>
    <img
-        src="id.png"
+        src="smartcontra.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
@@ -55,7 +55,7 @@ const Servicescont = () =>{
     <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Decentralized Application (dApp) Development</h2>
    <img
-        src="asess.png"
+        src="dapp.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
@@ -75,7 +75,7 @@ const Servicescont = () =>{
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Blockchain Integration</h2>
    <img
-        src="techn.png"
+        src="blockchain integration.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
@@ -95,7 +95,7 @@ const Servicescont = () =>{
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Decentralized Finance (DeFi) Solutions</h2>
    <img
-        src="poc.png"
+        src="defi.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
@@ -116,7 +116,7 @@ const Servicescont = () =>{
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Web3 Gaming Development</h2>
    <img
-        src="integration.png"
+        src="gaming.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
@@ -137,7 +137,7 @@ const Servicescont = () =>{
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">DAO Development</h2>
    <img
-        src="dev.png"
+        src="DAO.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
@@ -157,7 +157,7 @@ const Servicescont = () =>{
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Tooling and Infrastructure</h2>
    <img
-        src="dev.png"
+        src="tooling.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
@@ -177,7 +177,7 @@ const Servicescont = () =>{
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">IoT Firmware Development</h2>
    <img
-        src="dev.png"
+        src="iot firmware.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
