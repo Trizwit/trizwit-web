@@ -3,13 +3,25 @@ import Image from "next/image";
 
 const Servicescont = () =>{
    return <section className="text-gray-600 body-font">
-    <div className="grid grid-cols-1 md:grid-cols-2 mx-12">
-  <div className="p-8 py-12 mt-16">
-    <p className="text-7xl font-old font-extrabold py-4">analyse</p>
-    <p className="text-5xl font-extrabold py-4">advice</p>
-    <p className="text-5xl font-extrabold py-4">manage</p>
-  </div>
-  <div className="p-8 ml-32">
+    <div className="grid grid-cols-1 md:grid-cols-2 mx-auto md:mx-12">
+    <div className="p-8 py-4 mt-16">
+  <p className="text-4xl md:text-7xl text-gray-700 font-extrabold py-4">
+    Innvoation <span className="font-bold text-gray-700 m-4  text-xl md:text-2xl">Ethical</span>
+  </p>
+  <p className="text-lg md:text-xl text-gray-600 font-extrabold py-4">
+    Flexibility{" "}
+    <span className="font-bold text-gray-700 m-4 text-3xl md:text-4xl">Adaptability</span>{" "}
+    <span className="font-bold text-gray-400 m-4 text-2xl md:text-3xl">Integrity</span>
+  </p>
+  <p className="text-3xl md:text-5xl text-gray-400 font-bold py-4">
+    Client-Centric<span className="font-extrabold text-gray-600 m-4 text-sm md:text-2xl">Expertise</span>
+  </p>
+  <p className="text-sm md:text-2xl text-lg text-gray-600 font-extrabold py-4">
+    Creativity{" "}
+    <span className="font-bold text-gray-500 m-4 text-base text-4xl md:text-7xl">Quality</span>
+  </p>
+</div>
+  <div className=" p-2 md:p-8  py-16 ml-auto md:ml-32">
   <img
         src="ideation.png"
         alt="Image Alt Text"
@@ -17,36 +29,23 @@ const Servicescont = () =>{
       />
   </div>
 </div>
-    {/* <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
-    <div className="text-center lg:w-2/3 w-full">
-      
-    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Our Blockchain Consulting Process</h2>
-  <p className="mb-6 leading-relaxed text-2xl">We offer comprehensive solutions that cater to your every need, encompassing the entire journey from ideation and development to scaling your business.</p>
-       
-       <div className="flex justify-center">
-       <img
-        src="ideation.png"
-        alt="Image Alt Text"
-        className="w-96 h-96 mr-2"
-      />
-       </div>
-     </div>
-   </div> */}
+   
 
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
-   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Ideation</h2>
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Smart Contract Development</h2>
    <img
         src="id.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
-    <div className="text-center lg:w-2/3 w-full">
+    <div className="sm:text-left text-center lg:w-2/3 w-full">
       
       
      
        <p className="mb-6 leading-relaxed text-2xl">
-       We discuss the feasibility of your blockchain project with our blockchain 
-       developers and define the business goals and workflow for your system
+       We specialize in creating robust and secure smart contracts on various blockchain platforms. Our experienced 
+       developers craft custom smart contracts tailored to your specific needs, ensuring transparency, 
+       autonomy, and efficiency in your business processes.
        </p>
      </div>
      
@@ -54,25 +53,27 @@ const Servicescont = () =>{
 
 
     <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
-   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Assessment</h2>
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Decentralized Application (dApp) Development</h2>
    <img
         src="asess.png"
         alt="Image Alt Text"
         className="w-96 h-96 mr-2"
       />
-    <div className="text-center lg:w-2/3 w-full">
+    <div className="text-centersm:text-left lg:w-2/3 w-full">
       
       
      
-       <p className="mb-6 leading-relaxed text-2xl">
-       We analyze your existing solution and discover if it can be migrated to the blockchain.
+       <p className="mb-6 leading-relaxed text-center md:text-left text-2xl">
+       Unlock the full potential of decentralized applications with our expert development team. We 
+       build decentralized applications that leverage blockchain technology, enabling you to create trustless, 
+       transparent, and highly scalable solutions for your users.
        </p>
      </div>
      
    </div>
 
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
-   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Technical Component Definition</h2>
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Blockchain Integration</h2>
    <img
         src="techn.png"
         alt="Image Alt Text"
@@ -82,16 +83,17 @@ const Servicescont = () =>{
       
       
      
-       <p className="mb-6 leading-relaxed text-2xl">
-       Our blockchain consulting team identifies the right blockchain platform based on your 
-       business requirements and the type of blockchain.
+       <p className="mb-6 leading-relaxed text-center sm:text-left text-2xl">
+       Integrate blockchain technology seamlessly into your existing systems or applications. 
+       Our team will help you identify the most suitable blockchain platform for your requirements 
+       and ensure smooth integration, enhancing security and data integrity.
        </p>
      </div>
      
    </div>
 
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
-   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Proof of Concept</h2>
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Decentralized Finance (DeFi) Solutions</h2>
    <img
         src="poc.png"
         alt="Image Alt Text"
@@ -101,16 +103,18 @@ const Servicescont = () =>{
       
       
      
-       <p className="mb-6 leading-relaxed text-2xl">
-       We create a framework and prototype to identify the use cases 
-       for the business with minimum viable features.
+       <p className="mb-6 leading-relaxed text-center sm:text-left text-2xl">
+       Explore the revolutionary world of DeFi with our custom DeFi development services. 
+       We create decentralized finance platforms, including decentralized exchanges (DEX), 
+       lending protocols, and yield farming applications, enabling secure and transparent 
+       financial services.
        </p>
      </div>
      
    </div>
 
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
-   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Integration</h2>
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Web3 Gaming Development</h2>
    <img
         src="integration.png"
         alt="Image Alt Text"
@@ -120,16 +124,18 @@ const Servicescont = () =>{
       
       
      
-       <p className="mb-6 leading-relaxed text-2xl">
-       Our Blockchain Consultants help clients identify if the blockchain technology can be 
-       integrated into their business operations and environment.
+       <p className="mb-6 leading-relaxed text-center sm:text-left text-2xl">
+       Elevate your gaming experience with blockchain-powered games. Our team develops 
+       blockchain-based gaming solutions that offer true ownership of in-game assets, 
+       provably fair gameplay, and enhanced user interactions.
        </p>
      </div>
      
    </div>
 
+
    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
-   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Development</h2>
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">DAO Development</h2>
    <img
         src="dev.png"
         alt="Image Alt Text"
@@ -139,9 +145,51 @@ const Servicescont = () =>{
       
       
      
-       <p className="mb-6 leading-relaxed text-2xl">
-       Once you are ready to start blockchain technology development, we help you build the blockchain 
-       product, from UI/UX to full front-end and back-end implementation.
+       <p className="mb-6 leading-relaxed  text-center sm:text-left text-2xl">
+       Embrace decentralization and community governance with our DAO development expertise. 
+       We create decentralized autonomous organizations that empower stakeholders to 
+       participate in decision-making processes, fostering a more inclusive and democratic ecosystem
+       </p>
+     </div>
+     
+   </div>
+
+   <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Tooling and Infrastructure</h2>
+   <img
+        src="dev.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+     
+       <p className="mb-6 leading-relaxed  text-center sm:text-left text-2xl">
+       We offer comprehensive tooling and infrastructure solutions to support your blockchain 
+       development journey. From blockchain explorers to custom wallets and APIs, our team 
+       ensures a robust foundation for your blockchain projects.
+       </p>
+     </div>
+     
+   </div>
+
+   <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">IoT Firmware Development</h2>
+   <img
+        src="dev.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+     
+       <p className="mb-6 leading-relaxed  text-center sm:text-left text-2xl">
+       We are dedicated to providing cutting-edge firmware solutions that power and enhance 
+       the performance of IoT devices. Our expert team of firmware developers works 
+       diligently to create robust and efficient firmware that ensures seamless connectivity,
+       data processing, and security for your IoT ecosystem.
        </p>
      </div>
      
