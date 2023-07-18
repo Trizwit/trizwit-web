@@ -1,0 +1,318 @@
+import React, { useState } from "react";
+import Image from "next/image";
+
+const Servicescont = () =>{
+   return <section className="text-gray-600 body-font">
+    <div className="grid grid-cols-1 md:grid-cols-2 mx-12">
+  <div className="p-8 py-12 mt-16">
+    <p className="text-7xl font-old font-extrabold py-4">analyse</p>
+    <p className="text-5xl font-extrabold py-4">advice</p>
+    <p className="text-5xl font-extrabold py-4">manage</p>
+  </div>
+  <div className="p-8 ml-32">
+  <img
+        src="ideation.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+  </div>
+</div>
+    {/* <div className="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+    <div className="text-center lg:w-2/3 w-full">
+      
+    <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Our Blockchain Consulting Process</h2>
+  <p className="mb-6 leading-relaxed text-2xl">We offer comprehensive solutions that cater to your every need, encompassing the entire journey from ideation and development to scaling your business.</p>
+       
+       <div className="flex justify-center">
+       <img
+        src="ideation.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+       </div>
+     </div>
+   </div> */}
+
+   <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Ideation</h2>
+   <img
+        src="id.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+     
+       <p className="mb-6 leading-relaxed text-2xl">
+       We discuss the feasibility of your blockchain project with our blockchain 
+       developers and define the business goals and workflow for your system
+       </p>
+     </div>
+     
+   </div>
+
+
+    <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Assessment</h2>
+   <img
+        src="asess.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+     
+       <p className="mb-6 leading-relaxed text-2xl">
+       We analyze your existing solution and discover if it can be migrated to the blockchain.
+       </p>
+     </div>
+     
+   </div>
+
+   <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Technical Component Definition</h2>
+   <img
+        src="techn.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+     
+       <p className="mb-6 leading-relaxed text-2xl">
+       Our blockchain consulting team identifies the right blockchain platform based on your 
+       business requirements and the type of blockchain.
+       </p>
+     </div>
+     
+   </div>
+
+   <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Proof of Concept</h2>
+   <img
+        src="poc.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+     
+       <p className="mb-6 leading-relaxed text-2xl">
+       We create a framework and prototype to identify the use cases 
+       for the business with minimum viable features.
+       </p>
+     </div>
+     
+   </div>
+
+   <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Integration</h2>
+   <img
+        src="integration.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+     
+       <p className="mb-6 leading-relaxed text-2xl">
+       Our Blockchain Consultants help clients identify if the blockchain technology can be 
+       integrated into their business operations and environment.
+       </p>
+     </div>
+     
+   </div>
+
+   <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
+   <h2 className="text-5xl font-bold text-center pb-4 text-indigo-500">Development</h2>
+   <img
+        src="dev.png"
+        alt="Image Alt Text"
+        className="w-96 h-96 mr-2"
+      />
+    <div className="text-center lg:w-2/3 w-full">
+      
+      
+     
+       <p className="mb-6 leading-relaxed text-2xl">
+       Once you are ready to start blockchain technology development, we help you build the blockchain 
+       product, from UI/UX to full front-end and back-end implementation.
+       </p>
+     </div>
+     
+   </div>
+
+   
+
+   {/* <div className="container mx-auto flex px-5 py-15 items-center justify-center flex-col">
+    <div className="text-center lg:w-2/3 w-full">
+     <h2 className="text-5xl font-bold text-center pb-8 text-indigo-500">MISSION</h2>
+     <p className="mb-6 leading-relaxed text-2xl">
+    To provide comprehensive Web3 consultancy services, enabling our clients to navigate 
+      the ever-evolving landscape of decentralized technologies with confidence and 
+      empower individuals, businesses, and organizations to embrace the transformative power of
+       Web3, fostering innovation, trust, and inclusivity in the digital realm. 
+       </p>
+     </div>
+   </div> */}
+   
+   {/* <div className="bg-white py-6 sm:py-8 lg:py-12">
+  <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    
+    
+
+    <div className="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-4 max-w-[1240px] mx-auto">
+   
+      <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
+                       hover:bg-white transform 
+                       hover:-translate-y-1 hover:scale-110 hover:border-2
+                       rounded-lg p-4 border border-indigo-600">
+        <div className="flex items-center p-2 text-indigo-500 md:p-4">
+        <img src="https://img.icons8.com/color/240/null/request-service.png"/>
+        </div>
+
+        <div className="p-4 md:p-6">
+          <h3 className="mb-2 text-lg font-semibold md:text-xl text-indigo-500">Guidance</h3>
+          <p className="text-gray-500">To provide expert advice, guidance, and support to clients seeking to integrate Web3 technologies into their operations, products, and services.</p>
+        </div>
+      </div>
+    
+      <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
+                       hover:bg-white transform 
+                       hover:-translate-y-1 hover:scale-110 hover:border-2
+                       rounded-lg p-4 border border-indigo-600">
+        <div className="flex items-center p-2 text-indigo-500 md:p-4">
+        <img src="https://img.icons8.com/external-filled-color-icons-papa-vector/320/null/external-Brain-Of-Highly-Intelligent-Individual-emotional-manipulations-filled-color-icons-papa-vector.png"/>
+        </div>
+
+        <div className="p-4 md:p-6">
+          <h3 className="mb-2 text-lg font-semibold md:text-xl text-indigo-500">Innovation</h3>
+          <p className="text-gray-500"> To foster  development of innovative and impactful Web3 solutions that address real-world challenges and opportunities.</p>
+        </div>
+      </div>
+   
+      <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
+                       hover:bg-white transform 
+                       hover:-translate-y-1 hover:scale-110 hover:border-2
+                       rounded-lg p-4 border border-indigo-600">
+        <div className="flex items-center p-2 text-indigo-500 md:p-4">
+        <img src="https://img.icons8.com/office/240/null/positive-dynamic.png"/>
+        </div>
+
+        <div className="p-4 md:p-6">
+          <h3 className="mb-2 text-lg font-semibold md:text-xl text-indigo-500">Growth</h3>
+          <p className="text-gray-500">To contribute to the growth and evolution of the Web3 ecosystem by collaborating with other stakeholders and sharing knowledge and resources.</p>
+        </div>
+      </div>
+     
+      <div className="flex divide-x rounded-lg border bg-gray-50 transition duration-500 ease-in-out 
+                       hover:bg-white transform 
+                       hover:-translate-y-1 hover:scale-110 hover:border-2
+                       rounded-lg p-4 border border-indigo-600">
+        <div className="flex items-center p-2 text-indigo-500 md:p-4">
+        <img src="https://img.icons8.com/color/240/null/teaching.png"/>
+        </div>
+
+        <div className="p-4 md:p-6">
+          <h3 className="mb-2 text-lg font-semibold md:text-xl text-indigo-500">Educate</h3>
+          <p className="text-gray-500">To educate and raise awareness about the benefits and implications of decentralized technologies and promote their adoption and responsible use.</p>
+        </div>
+      </div>
+     
+
+    
+      
+      
+
+    
+    
+    </div>
+  </div>
+</div> */}
+
+
+
+
+
+
+
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+//  return <section className="text-gray-600 body-font overflow-hidden">
+//   <div className="container px-5 py-24 mx-auto">
+//     <div className="-my-8 divide-y-2 divide-gray-100">
+//       <div className="py-8 flex flex-wrap md:flex-nowrap">
+//         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          
+        
+//         </div>
+//         <div className="md:flex-grow ">
+       
+//         <h2 className="text-5xl font-bold text-center pb-8 text-indigo-500">VISION</h2>
+//           {/* <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2> */}
+//           <p className="text-xl font-medium text-gray-900 title-font mb-2">To become a leading Web3 consultancy company that empowers individuals, businesses, and organizations to harness the full potential of decentralized technologies and build a more open, secure, and equitable internet.</p>
+//           {/* <a className="text-indigo-500 inline-flex items-center mt-4">Learn More */}
+//             {/* <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+//               <path d="M5 12h14"></path>
+//               <path d="M12 5l7 7-7 7"></path>
+//             </svg>
+//           </a> */}
+//         </div>
+//       </div>
+
+//       <div className="py-8 flex flex-wrap md:flex-nowrap">
+//         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+      
+//         </div>
+//         <div className="md:flex-grow">
+//         <h1 className="py-3 text-3xl  md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500  to-purple-600">MISSION</h1>
+//           <ol  className="text-xl font-medium text-gray-900 title-font mb-2 list-decimal">
+//             <li>
+//             To provide expert advice, guidance, and support to clients seeking to integrate Web3 technologies into their operations, products, and services. 
+//             </li>
+//             <li>
+//             To foster the development of innovative and impactful Web3 solutions that address real-world challenges and opportunities. 
+//             </li>
+//             <li>
+//             To contribute to the growth and evolution of the Web3 ecosystem by collaborating with other stakeholders and sharing knowledge and resources.  
+//             </li>
+//             <li>
+//             To educate and raise awareness about the benefits and implications of decentralized technologies and promote their adoption and responsible use.   
+//             </li>
+//             <li>
+//             To uphold ethical and transparent practices and help build a more decentralized, democratic, and inclusive digital economy.    
+//             </li>
+//           </ol>
+          
+//         </div>
+//       </div>
+     
+//     </div>
+//   </div>
+// </section>
+
+
+
+
+// }
+
+export default Servicescont;

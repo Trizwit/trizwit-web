@@ -5,7 +5,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // Add your desired font families
+        custom: ['Roboto', 'sans-serif'],
+        new: ['Cabin Sketch', 'cursive'],
+        old: ['Lexend Peta'],
+        // Add more font families if needed
+      },
+    },
   },
   plugins: [],
 };
