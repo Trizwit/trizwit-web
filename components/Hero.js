@@ -33,7 +33,7 @@ const Hero = () => {
     </div>
   </div>
 
-  <div className="flex justify-center items-center flex-col pt-4 pb-6 md:min-w-[480px] bottom-[2%] mx-auto bg-white border border-slate-300 rounded-xl text-center shadow-xl mt-24">
+  <div className="flex justify-center items-center flex-col pt-4 pb-6 md:min-w-[480px] bottom-[2%] mx-auto bg-white border border-slate-300 rounded-xl text-center shadow-xl mt-16">
     <p className="text-3xl font-semibold text-indigo-600 mb-4">Our Domains</p>
     <div className="grid grid-cols-2 lg:grid-cols-2 justify-items-center px-2">
       <p className="flex px-4 py-2 text-slate-500 text-lg">
