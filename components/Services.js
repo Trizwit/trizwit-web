@@ -7,7 +7,7 @@ const Services = () => {
         <div className="container px-5 py-24 mx-auto max-w-[1200px] ">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 className="sm:text-5xl text-5xl font-bold title-font mb-2 text-indigo-500">
-              Our Blockchain consulting process{" "}
+              Our Blockchain Consulting Process{" "}
             </h1>
             <p className=" w-full text-2xl font-medium leading-relaxed text-gray-500">
             We offer comprehensive solutions that cater to your every need, encompassing the entire journey from ideation and 
