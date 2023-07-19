@@ -4,28 +4,33 @@ import Image from "next/image";
 const Servicescont = () =>{
    return <section className="text-gray-600 body-font">
     <div className="grid grid-cols-1 md:grid-cols-2 mx-auto md:mx-12">
-    <div className="p-8 py-4 mt-16">
-  <p className="text-4xl md:text-7xl text-gray-700 font-extrabold py-4">
-    Innvoation <span className="font-bold text-gray-700 m-4  text-xl md:text-2xl">Ethical</span>
+    <div class="flex  items-center justify-center h-screen">
+  <div class="w-[550px] h-[550px] p-8 py-4 bg-gray-200 opacity-80  rounded-full text-center">
+
+  <p className="text-4xl md:text-7xl text-gray-700 font-extrabold px-8  mt-6 py-5">
+    Innvoation <span className="font-bold text-gray-700 m-2 text-xl md:text-2xl">Ethical</span>
   </p>
-  <p className="text-lg md:text-xl text-gray-600 font-extrabold py-4">
+  <p className="text-lg md:text-xl text-gray-600 font-extrabold py-2">
     Flexibility{" "}
     <span className="font-bold text-gray-700 m-4 text-3xl md:text-4xl">Adaptability</span>{" "}
-    <span className="font-bold text-gray-400 m-4 text-2xl md:text-3xl">Integrity</span>
+    <span className="font-bold text-gray-500 m-4 text-2xl md:text-3xl">Integrity</span>
   </p>
   <p className="text-3xl md:text-5xl text-gray-400 font-bold py-4">
     Client-Centric<span className="font-extrabold text-gray-600 m-4 text-sm md:text-2xl">Expertise</span>
   </p>
-  <p className="text-sm md:text-2xl text-lg text-gray-600 font-extrabold py-4">
+  <p className="text-sm md:text-2xl text-lg text-gray-600 font-extrabold ">
     Creativity{" "}
     <span className="font-bold text-gray-500 m-4 text-base text-4xl md:text-7xl">Quality</span>
   </p>
 </div>
+</div>
+
   <div className=" p-2 md:p-8  py-16 ml-auto md:ml-32 hidden md:block">
   <img
-        src="ideation.png"
+        // src="ideation.png"
+        src="desktop.png"
         alt="Image Alt Text"
-        className="w-96 h-96 mr-2"
+        className="w-full h-96 object-cover mx-auto mt-32"
       />
   </div>
 </div>
