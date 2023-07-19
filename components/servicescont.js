@@ -21,7 +21,7 @@ const Servicescont = () =>{
     <span className="font-bold text-gray-500 m-4 text-base text-4xl md:text-7xl">Quality</span>
   </p>
 </div>
-  <div className=" p-2 md:p-8  py-16 ml-auto md:ml-32">
+  <div className=" p-2 md:p-8  py-16 ml-auto md:ml-32 hidden md:block">
   <img
         src="ideation.png"
         alt="Image Alt Text"
