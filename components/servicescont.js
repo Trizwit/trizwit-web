@@ -4,8 +4,8 @@ import Image from "next/image";
 const Servicescont = () =>{
    return <section className="text-gray-600 body-font">
     <div className="grid grid-cols-1 md:grid-cols-2 mx-auto md:mx-12">
-    <div class="flex  items-center justify-center h-screen">
-  <div class="w-[550px] h-[550px] p-8 py-4 bg-gray-200 opacity-80  rounded-full text-center">
+    <div className="flex  items-center justify-center h-screen">
+  <div className="w-[550px] h-[550px] p-8 py-4 bg-gray-200 opacity-80  rounded-full text-center">
 
   <p className="text-4xl md:text-7xl text-gray-700 font-extrabold px-8  mt-6 py-5">
     Innvoation <span className="font-bold text-gray-700 m-2 text-xl md:text-2xl">Ethical</span>
